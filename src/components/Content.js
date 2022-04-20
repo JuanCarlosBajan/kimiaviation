@@ -1,7 +1,11 @@
 import React from 'react';
 import Sky from './Sky';
 import Window from './window';
-import '../styles/Content.css';
+import Priorities from './Priorities';
+import Quote from './Quote';
+import Slider from './Slider';
+import WordSlider from './WordSlider';
+import '../styles/Content.scss';
 
 const Content = () => {
 
@@ -11,10 +15,18 @@ const Content = () => {
             <Sky/>
 
             <Window/>
-            
-            <div className="Info_Container">
 
-            </div>
+            <Priorities/>
+            
+            <Quote/>
+
+            <Slider/>
+
+            <WordSlider/>
+
+            <div className="Info_Container"/>
+
+            
                 
         </div>
     )
