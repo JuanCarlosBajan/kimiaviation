@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Content.css';
+import '../styles/Content.scss';
 
 const Sky = () => {
     
