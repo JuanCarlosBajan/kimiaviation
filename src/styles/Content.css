@@ -1,0 +1,94 @@
+.content {
+  min-height: 100vh;
+}
+
+.Video_Container {
+  overflow: hidden;
+  min-height: 600px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 0px 0px #121718,
+    inset 0px -1200px 200px -1000px #121718;
+}
+
+.Window_Container {
+  min-height: 1000px;
+  overflow: hidden;
+  height: 1400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#videoScene {
+  margin-top: 123px;
+  height: 600px;
+  width: 1000px;
+}
+
+#root {
+  height: 96vh;
+}
+
+.Title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Window {
+  height: 900px;
+  width: 1000px;
+  margin-left: -1000px;
+  background-image: url("../Assets/plane-window.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Info_Container {
+  width: 100%;
+  height: 1800px;
+  background-color: white;
+}
+
+
+#videoSky {
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #videoSky {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoSky {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1075px) {
+  .Video_Container {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .Video_Container {
+    align-items: flex-start;
+  }
+
+  #videoSky {
+    width: 100%;
+    height: auto;
+  }
+}
