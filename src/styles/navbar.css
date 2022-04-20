@@ -1,0 +1,50 @@
+#navbar {
+    padding: 40px 0px;
+    position: fixed;
+    width: 100%;
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+#sbnavbar {
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+    transition: 0.25s;
+    color: white;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: x-small;
+    letter-spacing: 2px;
+    justify-content: center;
+    vertical-align: middle;
+    z-index: 10;
+    margin: 0;
+}
+
+.Directions_Container {
+    width: 40%;
+    display: flex;
+}
+
+.right {
+    vertical-align: middle;
+}
+  
+.Directions_Container_Right {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+svg {
+    fill: rgb(255, 255, 255);
+    align-self: center;
+    justify-self: center;
+}
