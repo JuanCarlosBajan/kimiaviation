@@ -5,6 +5,8 @@ import Priorities from './Priorities';
 import Quote from './Quote';
 import Slider from './Slider';
 import WordSlider from './WordSlider';
+import Contact from './Contact';
+import Footer from './Footer';
 import '../styles/Content.scss';
 
 const Content = () => {
@@ -26,7 +28,10 @@ const Content = () => {
 
             <div className="Info_Container"/>
 
-            
+            <Contact/>
+
+            <Footer/>
+
                 
         </div>
     )
