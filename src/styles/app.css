@@ -23,6 +23,7 @@ body {
     background: #121718;
     height: 100vh;
     min-height: 600px;
+    scroll-behavior: smooth;
   }
   
   html {

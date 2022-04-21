@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Content from './Content';
+import { AiOutlineInstagram } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
 import  '../styles/app.css';
 
 const App = () => {
@@ -9,6 +11,10 @@ const App = () => {
         <div data-scroll-container>
             <Navbar/>
             <div className="Title">
+                <div className='title_icons'>
+                    <AiOutlineInstagram/>
+                    <FaFacebookF style={{ fontSize: '80%', marginLeft: '20px'}}/>
+                </div>
                     <svg className='Title_svg' width="500px" height="140px" viewBox="0 0 600 200.01"><g transform="translate(-456.949 -496.548)"><path className="st0" d="M1025.05,632.23V528.22c0.07-17.55,14.35-31.73,31.9-31.66c0,0,0,0,0,0v135.67H1025.05z
                 M904.95,632.23V554.2c0-1.8,0.05-3.76,0.14-5.87s0.27-4.25,0.52-6.42l-36.31,69.75c-1.01,2.05-2.59,3.76-4.55,4.94
             c-1.98,1.14-4.24,1.72-6.52,1.68h-4.32c-2.29,0.04-4.54-0.54-6.52-1.68c-1.96-1.17-3.54-2.89-4.55-4.94l-36.31-69.93
@@ -45,6 +51,8 @@ const App = () => {
                 c-0.15-0.35-0.3-0.77-0.45-1.26c-0.15-0.49-0.31-1.01-0.47-1.57c-0.15,0.56-0.3,1.09-0.45,1.58c-0.15,0.49-0.3,0.92-0.45,1.28
                 l-2.73,7.41l-1.36,3.67l0,0l-1.8,4.88c-0.1,0.27-0.28,0.52-0.52,0.7c-0.27,0.21-0.61,0.33-0.96,0.31h-3.5l9.49-23.94h4.57
                 l9.48,23.94H584.19z"></path></g></svg>
+            <div className='skyp skyp1'>KIMI Aviation is a new force in the private jet industry. We provide the best travel experience for the modern era, in which your safety, comfort and efficiency are our priority.</div>
+            <div className='skyp skyp2'>Traveling with KIMI means you can leave your worries on the ground. Ready to start your engines? Let us know your schedule and destination, and we’ll take care of the rest.</div>
             </div>
             <Content/>
         </div>
