@@ -3,13 +3,13 @@ Replica de la Página web Kimiaviation.com
 ## Dificultades
 
 Cabe resaltar que para el desarollo de esta página se presentaron algunas
-dificultades que no permitieron la replicación exacta de la misma.
+dificultades que no permitieron la replicación exacta de la misma.<br/>
 
 **1.** Impedimento de descarga de foografías. <br/>
 Esta página web no permite descargar las fotos que muestra por lo que
 no se pudo incluír las fotografías. Para mantener el formato de la misma,
 en lugar de las fotografías, se colocaron cuadros de un color fuerte para
-diferenciar el lugar donde debería ir una fotografía.
+diferenciar el lugar donde debería ir una fotografía.<br/>
 **2.** Tipo de Letra <br/>
 No se pudo encontrar el mismo tipo de letra que la plataforma, por lo que
 se decidió agregar una similar.
