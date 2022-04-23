@@ -1,21 +1,29 @@
 import React from 'react';
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { FaFacebookF } from 'react-icons/fa';
 import Navbar from './Navbar';
 import Content from './Content';
-import { AiOutlineInstagram } from "react-icons/ai";
-import { FaFacebookF } from "react-icons/fa";
-import  '../styles/app.css';
+import '../styles/app.css';
 
-const App = () => {
-
-    return (
-        <div data-scroll-container>
-            <Navbar/>
-            <div className="Title">
-                <div className='title_icons'>
-                    <AiOutlineInstagram/>
-                    <FaFacebookF style={{ fontSize: '80%', marginLeft: '20px'}}/>
-                </div>
-                    <svg className='Title_svg' width="500px" height="140px" viewBox="0 0 600 200.01"><g transform="translate(-456.949 -496.548)"><path className="st0" d="M1025.05,632.23V528.22c0.07-17.55,14.35-31.73,31.9-31.66c0,0,0,0,0,0v135.67H1025.05z
+function App() {
+  return (
+    <div data-scroll-container>
+      <Navbar />
+      <div className="Title">
+        <div className="title_icons">
+          <AiOutlineInstagram />
+          <FaFacebookF style={{ fontSize: '80%', marginLeft: '20px' }} />
+        </div>
+        <svg
+          className="Title_svg"
+          width="500px"
+          height="140px"
+          viewBox="0 0 600 200.01"
+        >
+          <g transform="translate(-456.949 -496.548)">
+            <path
+              className="st0"
+              d="M1025.05,632.23V528.22c0.07-17.55,14.35-31.73,31.9-31.66c0,0,0,0,0,0v135.67H1025.05z
                 M904.95,632.23V554.2c0-1.8,0.05-3.76,0.14-5.87s0.27-4.25,0.52-6.42l-36.31,69.75c-1.01,2.05-2.59,3.76-4.55,4.94
             c-1.98,1.14-4.24,1.72-6.52,1.68h-4.32c-2.29,0.04-4.54-0.54-6.52-1.68c-1.96-1.17-3.54-2.89-4.55-4.94l-36.31-69.93
             c0.19,2.24,0.34,4.42,0.47,6.57c0.13,2.14,0.19,4.11,0.19,5.91v78.03h-27.96V496.56h24.21c1.37,0,2.58,0.03,3.61,0.09
@@ -27,7 +35,11 @@ const App = () => {
             l-30.96-47.21c-1.01-1.64-2.5-2.92-4.27-3.68c-2.24-0.8-4.61-1.16-6.99-1.07h-7.7v57.73h-31.71v-27.57
             c0.06-16.73,13.68-30.25,30.41-30.19c0,0,0,0,0,0h-30.41v-77.92h31.71v54.94h5.07c4.69,0,8.07-1.46,10.13-4.38l30.77-44.33
             c1.5-2.1,3.52-3.79,5.86-4.89c2.49-0.97,5.16-1.43,7.84-1.35h27.58l-40.53,54.85c-2.43,3.4-5.61,6.2-9.29,8.2
-            c2.34,0.85,4.53,2.08,6.47,3.63c2.1,1.74,3.94,3.78,5.44,6.05l41.28,62.95L550.96,632.23z"></path><path class="st0" d="M877.99,695.64c-1.45-0.58-2.77-1.45-3.87-2.56c-1.09-1.11-1.93-2.43-2.49-3.88
+            c2.34,0.85,4.53,2.08,6.47,3.63c2.1,1.74,3.94,3.78,5.44,6.05l41.28,62.95L550.96,632.23z"
+            />
+            <path
+              className="st0"
+              d="M877.99,695.64c-1.45-0.58-2.77-1.45-3.87-2.56c-1.09-1.11-1.93-2.43-2.49-3.88
                 c-0.6-1.55-0.9-3.21-0.89-4.88c-0.02-1.67,0.28-3.32,0.89-4.88c0.56-1.45,1.41-2.77,2.49-3.88c1.1-1.11,2.42-1.98,3.87-2.56
                 c1.59-0.63,3.28-0.94,4.99-0.92c1.16-0.01,2.33,0.13,3.45,0.42c1.04,0.26,2.04,0.67,2.97,1.19c0.89,0.51,1.71,1.14,2.43,1.87
                 c0.72,0.73,1.33,1.56,1.83,2.46c0.51,0.93,0.89,1.92,1.14,2.95c0.27,1.09,0.4,2.22,0.39,3.34c0.02,1.67-0.28,3.32-0.88,4.88
@@ -50,14 +62,24 @@ const App = () => {
                 c-0.34,0.02-0.68-0.09-0.95-0.29c-0.24-0.19-0.43-0.44-0.55-0.72l-1.36-3.7l-1.59-4.32l0,0l-2.93-7.96
                 c-0.15-0.35-0.3-0.77-0.45-1.26c-0.15-0.49-0.31-1.01-0.47-1.57c-0.15,0.56-0.3,1.09-0.45,1.58c-0.15,0.49-0.3,0.92-0.45,1.28
                 l-2.73,7.41l-1.36,3.67l0,0l-1.8,4.88c-0.1,0.27-0.28,0.52-0.52,0.7c-0.27,0.21-0.61,0.33-0.96,0.31h-3.5l9.49-23.94h4.57
-                l9.48,23.94H584.19z"></path></g></svg>
-            <div className='skyp skyp1'>KIMI Aviation is a new force in the private jet industry. We provide the best travel experience for the modern era, in which your safety, comfort and efficiency are our priority.</div>
-            <div className='skyp skyp2'>Traveling with KIMI means you can leave your worries on the ground. Ready to start your engines? Let us know your schedule and destination, and we’ll take care of the rest.</div>
-            </div>
-            <Content/>
+                l9.48,23.94H584.19z"
+            />
+          </g>
+        </svg>
+        <div className="skyp skyp1">
+          KIMI Aviation is a new force in the private jet industry. We provide
+          the best travel experience for the modern era, in which your safety,
+          comfort and efficiency are our priority.
         </div>
-    )
-
+        <div className="skyp skyp2">
+          Traveling with KIMI means you can leave your worries on the ground.
+          Ready to start your engines? Let us know your schedule and
+          destination, and we’ll take care of the rest.
+        </div>
+      </div>
+      <Content />
+    </div>
+  );
 }
 
 export default App;

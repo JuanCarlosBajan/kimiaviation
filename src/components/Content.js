@@ -1,6 +1,6 @@
 import React from 'react';
 import Sky from './Sky';
-import Window from './window';
+import Window from './Window';
 import Priorities from './Priorities';
 import Quote from './Quote';
 import Slider from './Slider';
@@ -9,33 +9,28 @@ import Contact from './Contact';
 import Footer from './Footer';
 import '../styles/Content.scss';
 
-const Content = () => {
+function Content() {
+  return (
+    <div className="Content">
+      <Sky />
 
-    return (
-        <div className="Content">
-            
-            <Sky/>
+      <Window />
 
-            <Window/>
+      <Priorities />
 
-            <Priorities/>
-            
-            <Quote/>
+      <Quote />
 
-            <Slider/>
+      <Slider />
 
-            <WordSlider/>
+      <WordSlider />
 
-            <div className="Info_Container"/>
+      <div className="Info_Container" />
 
-            <Contact/>
+      <Contact />
 
-            <Footer/>
-
-                
-        </div>
-    )
-
+      <Footer />
+    </div>
+  );
 }
 
 export default Content;
