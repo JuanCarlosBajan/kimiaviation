@@ -1,6 +1,6 @@
 Replica de la Página web Kimiaviation.com
 
-##Dificultades
+## Dificultades
 
 Cabe resaltar que para el desarollo de esta página se presentaron algunas
 dificultades que no permitieron la replicación exacta de la misma.
@@ -14,7 +14,7 @@ dificultades que no permitieron la replicación exacta de la misma.
    No se pudo encontrar el mismo tipo de letra que la plataforma, por lo que
    se decidió agregar una similar.
 
-#Tecnologías utilizadas
+# Tecnologías utilizadas
 
 1. React
    Esta página está implementada sobre React.
@@ -27,5 +27,5 @@ dificultades que no permitieron la replicación exacta de la misma.
 3. Babel
    Para acoplar el código a versiones legibles por una mayor cantidad de
    web-browsers se implemetó Babel.
-4. Eslint
+4. Eslint/n
    Para mantener una misma línea de código se utilizó eslint.
