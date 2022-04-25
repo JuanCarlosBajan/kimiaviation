@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Content.scss';
+import window from '../Assets/plane-window.png';
 
 function Window() {
   return (
@@ -11,6 +12,7 @@ function Window() {
             type="video/mp4"
           />
         </video>
+        <img src={window} alt="Ventana" className="Window" />
         <div className="Window" />
       </div>
       <div className="quote">

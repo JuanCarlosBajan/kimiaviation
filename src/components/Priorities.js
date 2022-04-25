@@ -1,4 +1,7 @@
 import React from 'react';
+import safety from '../Assets/Kimi_safety.webp';
+import confort from '../Assets/Kimi_confort.webp';
+import efficiency from '../Assets/Kimi_efficiency.webp';
 
 function Priorities() {
   return (
@@ -17,7 +20,12 @@ function Priorities() {
           <div id="grid1" className="grid-item grid1">
             <div>
               <div className="priorities_picture_container">
-                <div className="priorities_picture1" />
+                <img
+                  // eslint-disable-next-line global-require
+                  src={safety}
+                  alt="Safety"
+                  className="priorities_picture1"
+                />
               </div>
               <div>
                 <h1 className="priorities_subtitle">Safety</h1>
@@ -37,7 +45,12 @@ function Priorities() {
           <div id="grid2" className="grid-item grid2">
             <div>
               <div className="priorities_picture_container">
-                <div className="priorities_picture2" />
+                <img
+                  // eslint-disable-next-line global-require
+                  src={confort}
+                  alt="Safety"
+                  className="priorities_picture2"
+                />
               </div>
               <div>
                 <h1 className="priorities_subtitle">Comfort</h1>
@@ -57,7 +70,12 @@ function Priorities() {
           <div id="grid3" className="grid-item grid3">
             <div>
               <div className="priorities_picture_container">
-                <div className="priorities_picture3" />
+                <img
+                  // eslint-disable-next-line global-require
+                  src={efficiency}
+                  alt="Safety"
+                  className="priorities_picture"
+                />
               </div>
               <div>
                 <h1 className="priorities_subtitle">Efficiency</h1>
