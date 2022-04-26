@@ -32,14 +32,10 @@ module.exports = {
         },
       },
       {
-        test: /\.(woff(2)?|woff2|ttf|otf|eot|svg|png|jpg|webp)(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.(|ttf|otf|eot|svg|png|jpg|webp)$/i,
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'fonts/',
-            },
           },
         ],
       },

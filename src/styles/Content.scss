@@ -104,7 +104,7 @@
   margin-top: -650px;
   position: absolute;
   padding: 0 25%;
-  font-family: 'fontA', Arial, Helvetica, sans-serif;
+  font-family: 'fontA', sans-serif;
   font-weight: 100;
   color: white;
   overflow: hidden;
@@ -130,7 +130,7 @@
 
 .priorities_title {
   margin-left: 500px;
-  font-family: 'fontA', Arial, Helvetica, sans-serif;
+  font-family: 'fontA', sans-serif;
   font-weight: 100;
   color: white;
 }
@@ -182,7 +182,7 @@
 }
 
 .priorities_subtitle {
-  font-family: 'fontA', Arial, Helvetica, sans-serif;
+  font-family: 'fontA', sans-serif;
   font-weight: 100;
   color: rgb(87, 140, 201);
   font-weight: 100;
@@ -190,8 +190,8 @@
 }
 
 .priorities_info {
-  max-width: 280px;
-  font-family: 'fontA', Arial, Helvetica, sans-serif;
+  max-width: 250px;
+  font-family: 'fontA', sans-serif;
   font-weight: 100;
   font-weight: 100;
   font-size: smaller;
@@ -215,7 +215,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'fontA', Arial, Helvetica, sans-serif;
+  font-family: 'fontA', sans-serif;
   font-weight: 100;
   display: grid;
   grid-template-rows: auto auto;
