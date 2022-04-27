@@ -74,7 +74,7 @@ function Priorities() {
                   // eslint-disable-next-line global-require
                   src={efficiency}
                   alt="Safety"
-                  className="priorities_picture"
+                  className="priorities_picture3"
                 />
               </div>
               <div>
